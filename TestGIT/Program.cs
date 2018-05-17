@@ -10,7 +10,9 @@ namespace TestGIT
     {
         static void Main(string[] args)
         {
-
+            int tm = 160;
+            TimeSpan time = TimeSpan.FromMinutes(tm);
+            string str1 = time.ToString("h:mm");
             string str = "10h";    
             string[] arr = str.Split('h');
             string hr = string.Empty;
@@ -18,6 +20,7 @@ namespace TestGIT
             int h = 0;
             int m = 0;
             int t = 0;
+            //Test
             if (arr.Length > 1)
             {
                  h =  int.Parse(arr[0].ToString()) * 60;
