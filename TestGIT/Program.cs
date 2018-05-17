@@ -20,7 +20,7 @@ namespace TestGIT
             int h = 0;
             int m = 0;
             int t = 0;
-            //Test
+            //Test gain
             if (arr.Length > 1)
             {
                  h =  int.Parse(arr[0].ToString()) * 60;
