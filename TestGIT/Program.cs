@@ -21,7 +21,7 @@ namespace TestGIT
 
         private static async Task MakeRequest()
         {
-            Console.WriteLine("Making Request");
+            Console.WriteLine("Making Request again");
             var httpClient = new HttpClient();
             var response = await httpClient.GetAsync(new Uri("https://247-dev.atlassian.net/rest/webhooks/webhook1"));
             var body = await response.Content.ReadAsStringAsync();
